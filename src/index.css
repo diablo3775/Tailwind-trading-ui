@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .fixed {
+        grid-template-columns: 350px 350px 350px 350px 350px;
+    }
+    .pl-200 {
+        padding-left: 87px;
+    }
+
+    .bg-lg {
+        background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+    }
+
+    .h-tr {
+        height: 350px;
+    }
+
+    .w-tr {
+        width: 290px;
+    }
+
+    .h-chc {
+        height: 60px;
+    }
+
+    .w-chc {
+        width: 130px;
+    }
+
+    .bg-chc {
+        background: #14172B;
+    }
+
+    .bs {
+        box-shadow: 1px -16px #14172B;
+    }
+
+    .bs-a {
+        box-shadow: -1px -16px #14172B;
+    }
+
+    .chcb {
+        border-top-right-radius: 50px;
+    }
+
+    .chcb-a {
+        border-top-left-radius: 50px;
+    }
+
+    .chc-l {
+        left: 51px;
+    }
+
+    .chc-la {
+        left: 200px;
+    }
+
+    .price-top {
+        top: 160px;
+    }
+
+    .bdr-top {
+        top: 185px;
+    }
+
+    .tvl-top {
+        top: 235px;
+    }
+
+    .bdr-last-top {
+        top: 260px;
+    }
+
+}

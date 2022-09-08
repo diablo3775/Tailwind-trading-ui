@@ -1,0 +1,492 @@
+.pad {
+  padding: 200px 0px 205px 87px;
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px 350px;
+}
+
+.card {
+  width: 290px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+  backdrop-filter: blur(100px);
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  position: absolute;
+  background: #998235;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.mid-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+  border-radius: 100%;
+  left: 182px;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3B3F57;
+}
+
+.mid-circle2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(220, 31, 255, 0.1) 100%);  border-radius: 100%;
+  left: 532px;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3B3F57;
+}
+
+.mid-bitcoin {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.mid-bitcoin-bg {
+  position: absolute;
+}
+
+.mid-bitcoin-logo {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  object-fit: contain;
+  position: absolute;
+}
+
+.card-half-circle {
+  position: relative;
+  width: 130px;
+  height: 60px;
+  background: #14172B;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.card-half-circle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -28px;
+  width: 35px;
+  height: 35px;
+  border-top-right-radius: 50px;
+  box-shadow: 1px -16px #14172B;
+}
+
+.card-half-circle::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 123px;
+  width: 35px;
+  height: 35px;
+  border-top-left-radius: 50px;
+  box-shadow: -1px -16px #14172B;
+}
+
+.btc-txt {
+  position: absolute;
+  left: 105px;
+  top: 80px;
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  color: #737BAE;
+  opacity: 0.9;
+}
+
+.dollar-txt {
+  padding: 0px 15px 0px 30px;
+}
+
+.btc-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 242px;
+  height: 40px;
+  left: 24px;
+  top: 108px;
+  background: #14172B;
+  border-radius: 17px;
+}
+
+.btc-border-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 242px;
+  height: 40px;
+  left: 25px;
+  top: 185px;
+  background: #14172B;
+  border-radius: 17px;
+}
+
+.tvl {
+  position: absolute;
+  top: 235px;
+}
+
+.btc-border-three {
+  position: absolute;
+  width: 121.75px;
+  height: 40px;
+  left: 90px;
+  top: 260px;
+  background: #14172B;
+  border-radius: 29.5px;
+}
+
+.solana {
+  position: absolute;
+  left: calc(50% - 22px/2 - 34.87px);
+  top: 10px;
+}
+
+.solana1 {
+  position: absolute;
+  left: calc(50% - 12.63px/2 - 34.79px);
+  top: 16.05px;
+}
+
+.solana2 {
+  position: absolute;
+  left: calc(50% - 12.63px/2 - 34.79px);
+  top: 19.74px;
+}
+
+.solana3 {
+  position: absolute;
+  left: calc(50% - 12.63px/2 - 34.79px);
+  top: 24.49px;
+}
+
+.eth {
+  position: absolute;
+  left: 40.97%;
+  right: 40.97%;
+  top: 22.5%;
+  bottom: 22.5%;
+}
+
+.eth1 {
+  position: absolute;
+  left: 46.69%;
+  right: 50.02%;
+  top: 33.5%;
+  bottom: 43.98%;
+}
+
+.eth2 {
+  position: absolute;
+  left: 49.9%;
+  right: 46.74%;
+  top: 33.5%;
+  bottom: 43.98%;
+}
+
+.eth3 {
+  position: absolute;
+  left: 46.69%;
+  right: 50.02%;
+  top: 52%;
+  bottom: 33.89%;
+}
+
+.eth4 {
+  position: absolute;
+  left: 49.93%;
+  right: 46.73%;
+  top: 52%;
+  bottom: 33.89%;
+}
+
+.eth5 {
+  position: absolute;
+  left: 46.69%;
+  right: 50.02%;
+  top: 45.56%;
+  bottom: 43.98%;
+}
+
+.eth6 {
+  position: absolute;
+  left: 49.98%;
+  right: 46.74%;
+  top: 45.56%;
+  bottom: 43.98%;
+}
+
+.binance2 {
+  position: absolute;
+  left: calc(50% - 22px/2 + 35.13px);
+  top: 9px;
+}
+
+.binance {
+  position: absolute;
+  width: 14.67px;
+  height: 14.67px;
+  left: calc(50% - 14.67px/2 + 35.13px);
+  top: 12.67px;
+}
+
+.binance1 {
+  position: absolute;
+  left: calc(50% - 3.37px/2 + 35.13px);
+  top: 18.32px;
+}
+
+.pp {
+  position: absolute;
+  left: 115px;
+  top: 310px;
+}
+
+.price {
+  position: absolute;
+  left: 130px;
+  top: 160px;
+}
+
+/* 2nd Card */
+.mid-solana {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.solanabigbg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.solana4 {
+position: absolute;
+top: 40px;
+left: 35px;
+}
+
+.solana5 {
+  position: absolute;
+  top: 48px;
+  left: 35px;
+}
+
+.solana6 {
+  position: absolute;
+top: 55px;
+left: 35px;
+}
+
+.bitcoinsmall {
+  position: absolute;
+  left: 21px;
+  top: 12px;
+}
+
+/* 3rd card */
+.mid-circle3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(237, 240, 244, 0.1) 100%);  
+  left: 882px;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3B3F57;
+  border-radius: 100%;
+}
+
+.mid-eth {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.ethbigbg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.ethbig1 {
+  position: absolute;
+top: 36px;
+left: 41px;
+}
+
+.ethbig2 {
+  position: absolute;
+  top: 36px;
+  left: 49.5px;
+}
+
+.ethbig3 {
+  position: absolute;
+  top: 53px;
+  left: 41px;
+}
+
+.ethbig4 {
+  position: absolute;
+  top: 53px;
+  left: 50px;
+}
+
+.ethbig5 {
+  position: absolute;
+  top: 47px;
+  left: 41px;
+}
+
+.ethbig6 {
+  position: absolute;
+  top: 47px;
+  left: 50px;
+}
+
+.bitcoinsmallbg {
+  position: absolute;
+  top: 9px;
+  left: 50px;
+}
+
+.bitcoinsmall3 {
+  position: absolute;
+  top: 12px;
+  left: 56px;
+}
+
+/* 4th card */
+.mid-circle4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);  left: 1230px;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3B3F57;
+  border-radius: 100%;
+  left: 1232px;
+}
+
+.mid-binance {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.binancebigbg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.binancebig1 {
+  position: absolute;
+  top: 33px;
+  left: 34px;
+}
+
+.binancebig2 {
+  position: absolute;
+  top: 46px;
+  left: 47px;
+}
+
+/* 5th card */
+.mid-circle5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(228, 45, 4, 0.1) 100%);  left: 1580px;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3B3F57;
+  border-radius: 100%;
+  left: 1582px;
+}
+
+.shibabg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.mid-shiba {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.shiba1 {
+  position: absolute;
+  top: 33px;
+  left: 33px;
+}
+
+.shiba2 {
+  position: absolute;
+  top: 53px;
+  left: 33px;
+}
+
+.shiba3 {
+  position: absolute;
+  top: 56px;
+  left: 45px;
+}
+
+.shiba4 {
+  position: absolute;
+  top: 47px;
+  left: 40px;
+}
+
+.shiba5 {
+  position: absolute;
+  top: 47px;
+  left: 53px;
+}
+
+.shiba6 {
+  position: absolute;
+  top: 43px;
+  left: 40px;
+}
+
+.shiba7 {
+  position: absolute;
+  top: 43px;
+  left: 55px;
+}

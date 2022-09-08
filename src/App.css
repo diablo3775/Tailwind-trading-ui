@@ -1,0 +1,33 @@
+body {
+  background-color: #14172B;
+}
+
+.App {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 150px;
+}
+
+.trending {
+  position: absolute;
+  left: 100px;
+  top: 20px
+}
+
+.trendingbox {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+.trendingline {
+  position: absolute;
+  left: 104px;
+  top: 55px;
+}
+
+.trendingtxt {
+  position: absolute;
+  left: 135px;
+  top: 51px;
+}
